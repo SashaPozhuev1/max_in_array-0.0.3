@@ -56,7 +56,6 @@ int main() {
 		cout << "An error has occurred while reading numbers" << endl;
 	}
 
-
 	cin.get();
 	return 0;
 }
