@@ -29,7 +29,6 @@ int main() {
 	int mass3[ 20 ];
 
 	if ( ( proverka( mass1 ) ) && ( proverka( mass2 ) ) ) {
-
 		for ( int i = 0; i < 20; i++ ) {
 			if ( i % 2 == 0 ) {
 				mass3[ i ] = mass1[ i / 2 ];
@@ -38,7 +37,6 @@ int main() {
 				mass3[ i ] = mass2[ i / 2 ];
 			}
 		}
-
 
 		int max = mass3[ 0 ] + mass3[ 1 ];
 
